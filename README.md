@@ -196,11 +196,7 @@ Biblioteki ####
 * [Ricequant Quantitative](http://xueqiu.com/ricequant) - konto Snowball dla platformy ilościowej Ricequant.
 * [Quant Bro - Uqer Uqer](http://xueqiu.com/4105947155) - konto Snowball dla platformy ilościowej Uqer.
 * [Kuanke (Quant) - Index - 知乎](https://www.zhihu.com/topic/19557481)
-* Inwestycje ilościowe i uczenie maszynowe - numer publiczny wechat
-* THU Quantitative Association - 微信公众号
-* U-Mine Quant Lab - 微信公众号
-* Ricequant - 微信公众号
-* Lumine Quantitative All View - numer publiczny WeChat
+* [Ważne dokumenty badawcze dla kwantyfikatorów](https://openquant.co/blog/research-papers-for-quants)
 
 
 ## Polityka
