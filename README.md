@@ -5,9 +5,9 @@ Starannie dobrany indeks zasobów związanych z Quant w języku chińskim.
 
 ## Spis treści
 
-# [Źródła danych](#Data Sources)
-* [Baza danych](#Database)
-* [Quantitative Trading Platform](#Quantitative Trading Platform)
+# [Źródła danych](#Źródła danych)
+* [Baza danych](#Baza danych)
+* [Platforma handlu ilościowego](#Platforma handlu ilościowego)
 * [Strategia](#Strategy)
 * [Backtest](#Backtest)
 * [Trading API](#Trading api)
