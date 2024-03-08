@@ -207,7 +207,7 @@ Biblioteki ####
 * [Shanghai Futures Exchange Home](http://www.shfe.com.cn/)
 * [Strona internetowa giełdy towarowej w Zhengzhou](http://www.czce.com.cn/portal/index.htm)
 * [Shanghai Stock Exchange](http://www.sse.com.cn/)
-* [Shenzhen Stock Exchange](http://www.szse.cn/)
+* [Shenzhen Stock Exchange (2)](http://www.szse.cn/)
 
 # Indeks innych zasobów Quant
 
