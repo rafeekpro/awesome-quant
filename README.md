@@ -1,231 +1,231 @@
 
-# Awesome Quant [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome Quant [! [Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github. com/sindresorhus/awesome)
 
-一份精心挑选的中文Quant相关资源索引。
+Starannie dobrany indeks zasobów związanych z Quant w języku chińskim.
 
-## 目录
+## Spis treści
 
-*  [数据源](#数据源)
-*  [数据库](#数据库)
-*  [量化交易平台](#量化交易平台)
-*   [策略](#策略)
-*  [回测](#回测)
-*  [交易API](#交易api)
-*  [编程](#编程)
+* Źródła danych](#Data Sources)
+* [Baza danych](#Database)
+* [Quantitative Trading Platform](#Quantitative Trading Platform)
+* [Strategia](#Strategy)
+* [Backtest](#Backtest)
+* [Trading API](#Trading api)
+* [Programowanie](#Programming)
     * [Python](#python)
     * [R](#r)
     * [C++](#c)
     * [Julia](#julia)
-*  [论坛](#论坛)
-*  [书籍](#书籍)
-*  [论文](#论文)
-*  [政策](#政策)
-* [值得关注的信息源](#值得关注的信息源)
-*  [其他Quant资源索引](#其他quant资源索引)
+* [Forum](#forum)
+* [Książki](#books)
+* [Eseje](#essays)
+* [Polityka](#policy)
+* [Źródła warte uwagi](#Noteworthy Sources)
+* [Indeks innych źródeł danych](#Index of Other Quant Sources)
 
-## 数据源
-* [TuShare](http://tushare.org/)  - 中文财经数据接口包
-* [Quandl](https://www.quandl.com/) - 国际金融和经济数据
-* [Wind资讯-经济数据库](http://www.wind.com.cn/NewSite/edb.html) - 收费
-* [锐思数据 - 首页](http://www.resset.cn/) - 收费
-* [国泰安数据服务中心](http://www.gtarsc.com/Home) - 收费
-* [恒生API](https://open.hscloud.cn/cloud/open/apilibrary/queryLibraryMenu.html?parent_id=100313&menu_id=100307) - 收费
-* [Bloomberg API](https://www.bloomberglabs.com/api/libraries/)  - 收费
-* [数库金融数据和深度分析API服务](http://developer.chinascope.com/) - 收费
-* [Historical Data Sources](http://quantpedia.com/Links/HistoricalData) - 一个数据源索引
-* [Python通达信数据接口](https://github.com/rainx/pytdx) - 免费通达信数据源
-* [fooltrader](https://github.com/foolcage/fooltrader) - 大数据开源量化项目,自己维护了一个爬取整合的全市场数据源
-* [zvt](https://github.com/zvtvz/zvt) - ZVT是在fooltrader的基础上重新思考后编写的量化项目，其包含可扩展的数据recorder，api，因子计算，选股，回测，定位为中低频 多级别 多标的 全市场分析和交易框架。
-* [JoinQuant/jqdatasdk](https://github.com/JoinQuant/jqdatasdk) - jqdatasdk是提供给用户获取聚宽金融数据的SDK
-* [米筐科技的RQData数据接口](https://www.ricequant.com/introduce_rqdata) - 收费
-* [AkShare](https://github.com/jindaxiang/akshare) - 免费开源财经数据接口库，目前包含中文领域最全的数据接口
+## Źródła danych
+* [TuShare](http://tushare.org/) - chiński pakiet interfejsu danych finansowych
+* [Quandl](https://www.quandl.com/) - Międzynarodowe dane finansowe i ekonomiczne
+* [Wind Info - Ekonomiczna baza danych](http://www.wind.com.cn/NewSite/edb.html) - płatne
+* [RESET Data - Home](http://www.resset.cn/) - za opłatą
+* [Cathay Pacific Data Service Centre](http://www.gtarsc.com/Home) - płatne
+* [Hang Seng API](https://open.hscloud.cn/cloud/open/apilibrary/queryLibraryMenu.html?parent_id=100313&menu_id=100307) - płatne
+* [Bloomberg API](https://www.bloomberglabs.com/api/libraries/) - Opłata pobierana
+* [Digital Library Financial Data and In-depth Analytics API Service](http://developer.chinascope.com/) - Płatne
+* [Źródła danych historycznych](http://quantpedia.com/Links/HistoricalData) - indeks źródeł danych
+* [Python TDX Data Interface](https://github.com/rainx/pytdx) - darmowe źródło danych TDX
+* [fooltrader](https://github.com/foolcage/fooltrader) - duży projekt ilościowy open source, utrzymują zintegrowane źródło danych z całego rynku.
+* [zvt](https://github.com/zvtvz/zvt) - ZVT to projekt ilościowy napisany po przemyśleniu na podstawie fooltradera, który zawiera skalowalny rejestrator danych, api, obliczenia czynników, selekcję akcji, backtesting, pozycjonowanie dla niskiej i średniej częstotliwości, wielopoziomową, wieloprzedmiotową, ogólnorynkową analizę i ramy handlowe.
+* [JoinQuant/jqdatasdk](https://github.com/JoinQuant/jqdatasdk) - jqdatasdk to zestaw SDK, który zapewnia użytkownikom dostęp do zagregowanych, szerokich danych finansowych.
+* [MiBasket's RQData data interface](https://www.ricequant.com/introduce_rqdata) - Charge for it
+* AkShare](https://github.com/jindaxiang/akshare) - darmowa biblioteka interfejsu danych finansowych typu open source, obecnie zawiera najbardziej kompletny interfejs danych w chińskiej domenie.
 
-## 数据库
+## Baza danych
 
-* [manahl/arctic: High performance datastore for time series and tick data](https://github.com/manahl/arctic) - 基于mongodb和python的高性能时间序列和tick数据存储
-* [kdb | The Leader in High-Performance Tick Database Technology | Kx Systems](https://kx.com/) - 收费的高性能金融序列数据库解决方案
-* [MongoDB Blog](http://blog.mongodb.org/post/65517193370/schema-design-for-time-series-data-in-mongodb) - 用mongodb存储时间序列数据
-*  [InfluxDB – Time-Series Data Storage | InfluxData](https://www.influxdata.com/time-series-platform/influxdb/) - Go写的分布式时间序列数据库
-* [OpenTSDB/opentsdb: A scalable, distributed Time Series Database.](https://github.com/OpenTSDB/opentsdb) - 基于HBase的时间序列数据库
-* [kairosdb/kairosdb: Fast scalable time series database](https://github.com/kairosdb/kairosdb) -  基于Cassandra的时间序列数据库
-* [timescale/timescaledb: An open-source time-series database optimized for fast ingest and complex queries. Engineered up from PostgreSQL, packaged as an extension.](https://github.com/timescale/timescaledb) -  基于PostgreSQL的时间序列数据库
+* [manahl/arctic: wysokowydajny magazyn danych dla szeregów czasowych i danych tickowych](https://github.com/manahl/arctic) - wysokowydajny szereg czasowy i tickowy oparty na mongodb i pythonie. datastore
+* [kdb | The Leader in High-Performance Tick Database Technology | Kx Systems](https://kx.com/) - Oparte na opłatach rozwiązanie dla wysokowydajnych baz danych serii finansowych
+* [MongoDB Blog](http://blog.mongodb.org/post/65517193370/schema-design-for-time-series-data-in-mongodb) - Przechowywanie danych szeregów czasowych za pomocą mongodb
+* [InfluxDB - Time-Series Data Storage | InfluxData](https://www.influxdata.com/time-series-platform/influxdb/) - Rozproszone szeregi czasowe napisane przez Go Baza danych.
+* OpenTSDB/opentsdb: skalowalna, rozproszona baza danych szeregów czasowych](https://github.com/OpenTSDB/opentsdb) - baza danych szeregów czasowych oparta na HBase.
+* [kairosdb/kairosdb: Szybka skalowalna baza danych szeregów czasowych](https://github.com/kairosdb/kairosdb) - Baza danych szeregów czasowych oparta na Cassandrze.
+* [timescale/timescaleb: Baza danych szeregów czasowych o otwartym kodzie źródłowym zoptymalizowana pod kątem szybkiego pozyskiwania i złożonych zapytań. Opracowana na podstawie PostgreSQL, spakowana jako rozszerzenie.]() - Oparta na Cassandrze. spakowane jako rozszerzenie.](https://github.com/timescale/timescaledb) - Baza danych szeregów czasowych oparta na PostgreSQL.
 
-## 量化交易平台
+## Platforma handlu ilościowego
 
-* [JoinQuant聚宽量化交易平台](https://www.joinquant.com/) - 一个基于Python的在线量化交易平台
-* [优矿 - 通联量化实验室](https://uqer.io/home/) - 一个基于Python的在线量化交易平台
-* [Ricequant 量化交易平台](https://www.ricequant.com/) - 支持Python和Java的在线量化交易平台
-* [掘金量化](http://www.myquant.cn/) - 支持C/C++、C#、MATLAB、Python和R的量化交易平台
-* [Auto-Trader](http://www.atrader.com.cn/portal.php) - 基于MATLAB的量化交易平台
-* [MultiCharts 中国版 - 程序化交易软件](https://www.multicharts.cn/)
-* [BotVS - 首家支持传统期货与股票证券与数字货币的量化平台](https://www.botvs.com/)
-* [Tradeblazer(TB) - 交易开拓者](http://www.tradeblazer.net/) - 期货程序化交易软件平台
-* [MetaTrader 5](https://www.metatrader5.com/en) - Multi-Asset Trading Platform
-* [BigQuant](https://bigquant.com) - 专注量化投资的人工智能/机器学习平台
-* [天勤量化（TqSdk）](https://github.com/shinnytech/tqsdk-python) - 快期出品的 Python 量化开发包，免费提供期货、期权、股票数据，支持实盘交易/历史回测
-* [果仁网](https://guorn.com/) - 一个以选股+量化为主要特色的平台，不需要写代码就能完成大部分的量化和回测操作
+* [JoinQuant - zagregowana, szeroka platforma handlu ilościowego](https://www.joinquant.com/) - oparta na Pythonie platforma handlu ilościowego online.
+* [YouMine - Tonglian Quant Lab](https://uqer.io/home/) - oparta na Pythonie internetowa platforma handlu ilościowego.
+* [Ricequant Quantitative Trading Platform](https://www.ricequant.com/) - internetowa platforma handlu ilościowego z obsługą Pythona i Javy.
+* [Nuggets Quant](http://www.myquant.cn/) - ilościowa platforma handlowa obsługująca C/C++, C#, MATLAB, Python i R.
+* [Auto-Trader](http://www.atrader.com.cn/portal.php) - ilościowa platforma transakcyjna oparta na MATLAB.
+* [MultiCharts China Edition - oprogramowanie do handlu programowanego](https://www.multicharts.cn/)
+* [BotVS - pierwsza platforma ilościowa obsługująca tradycyjne kontrakty futures i kapitałowe papiery wartościowe z walutami cyfrowymi](https://www.botvs.com/)
+* [Tradeblazer(TB) - Trade Blazer](http://www.tradeblazer.net/) - platforma oprogramowania do programowego handlu kontraktami futures
+* [MetaTrader 5](https://www.metatrader5.com/en) - platforma transakcyjna dla wielu aktywów
+* [BigQuant](https://bigquant.com) - platforma sztucznej inteligencji/uczenia maszynowego skupiająca się na inwestycjach ilościowych
+* [TqSdk](https://github.com/shinnytech/tqsdk-python) - pakiet rozwoju ilościowego Python, darmowe kontrakty terminowe, opcje, dane giełdowe, wsparcie handlu na żywo/historycznego backtestingu.
+* [Nutrino](https://guorn.com/) - platforma, której główną cechą jest selekcja akcji + analiza ilościowa, większość operacji ilościowych i backtestingowych można wykonać bez pisania kodów.
 
-## 策略
-* [JoinQuant聚宽: 量化学习资料、经典交易策略、Python入门 - 雪球](https://xueqiu.com/8287840120/65009358)
-* [myquant/strategy: 掘金策略集锦](https://github.com/myquant/strategy)
-* [优矿社区内容索引](https://uqer.io/community/share/58243e7d228e5b91df6d5d19)
-* [RiceQuant米筐量化社区 2016年4月以来优秀策略与研究汇总](https://www.ricequant.com/community/topic/1863//3)
-* [雪球选股](https://xueqiu.com/9796081404)
-* [botvs/strategies: 用Javascript OR Python进行量化交易](https://github.com/botvs/strategies)
+## Strategia
+* [JoinQuant聚宽: Quantitative Learning Materials, Classic Trading Strategies, Introduction to Python - 雪球](https://xueqiu.com/8287840120/65009358)
+* [myquant/strategy: Nuggets Strategy Collection](https://github.com/myquant/strategy)
+* [Index of UMine Community Content](https://uqer.io/community/share/58243e7d228e5b91df6d5d19)
+* [RiceQuant myquant quantitative community summary of excellent strategies and research since April 2016](https://www.ricequant.com/community/topic/1863//3)
+* [Snowball Stock Picks](https://xueqiu.com/9796081404)
+* [botvs/strategies: quantitative trading with Javascript OR Python](https://github.com/botvs/strategies)
 
-## 回测
-* [Zipline](https://github.com/quantopian/zipline) - 一个Python的回测框架
-* [pyalgotrade](https://github.com/gbeced/pyalgotrade) - 一个Python的事件驱动回测框架
-* [pyalgotrade-cn](https://github.com/Yam-cn/pyalgotrade-cn) - Pyalgotrade-cn在原版pyalgotrade的基础上加入了A股历史行情回测，并整合了tushare提供实时行情。
-* [ricequant/rqalpha](https://github.com/ricequant/rqalpha) - RQalpha: Ricequant 开源的基于Python的回测引擎
-* [quantdigger](https://github.com/QuantFans/quantdigger) - 基于python的量化回测框架,借鉴了主流商业软件（比如TB, 金字塔）简洁的策略语法
-* [pyktrader](https://github.com/harveywwu/pyktrader) - 基于pyctp接口，并采用vnpy的eventEngine，使用tkinter作为GUI的python交易平台
-* [QuantConnect/Lean](https://github.com/QuantConnect/Lean) -  Lean Algorithmic Trading Engine by QuantConnect (C#, Python, F#, VB, Java)
-* [QUANTAXIS](https://github.com/yutiansut/QUANTAXIS) - QUANTAXIS 量化金融策略框架 - 中小型策略团队解决方案
-* [Hikyuu](http://hikyuu.org) - 基于Python/C++的开源量化交易研究框架
-* [StarQuant](https://github.com/physercoe/starquant) - 基于Python/C++的综合量化交易回测系统/平台
+## Backtesting
+* [Zipline](https://github.com/quantopian/zipline) - framework do backtestingu w Pythonie
+* [pyalgotrade](https://github.com/gbeced/pyalgotrade) - oparty na zdarzeniach framework do backtestingu dla Pythona
+* [pyalgotrade-cn](https://github.com/Yam-cn/pyalgotrade-cn) - Pyalgotrade-cn dodaje historyczny backtesting akcji A do oryginalnego pyalgotrade i integruje tushare, aby zapewnić notowania w czasie rzeczywistym.
+* [ricequant/rqalpha](https://github.com/ricequant/rqalpha) - RQalpha: open source'owy silnik Ricequant do backtestingu oparty na Pythonie.
+* [quantdigger](https://github.com/QuantFans/quantdigger) - oparty na Pythonie system ilościowego backtestingu, zapożyczony z głównego nurtu komercyjnego oprogramowania (takiego jak TB, piramida) zwięzła składnia strategii.
+* [pyktrader](https://github.com/harveywwu/pyktrader) - platforma handlowa w Pythonie oparta na interfejsie pyctp i wykorzystująca eventEngine vnpy, wykorzystująca tkinter jako GUI.
+* [QuantConnect/Lean](https://github.com/QuantConnect/Lean) - Lean Algorithmic Trading Engine firmy QuantConnect (C#, Python, F#, VB, Java).
+* QUANTAXIS](https://github.com/yutiansut/QUANTAXIS) - QUANTAXIS Quantitative Financial Strategy Framework - rozwiązanie dla małych i średnich zespołów strategicznych.
+* [Hikyuu](http://hikyuu.org) - oparty na Python/C++ framework do ilościowych badań tradingowych.
+* [StarQuant](https://github.com/physercoe/starquant) - Zintegrowany system/platforma do ilościowego testowania transakcji oparta na Python/C++.
 
-## 交易API
-* [上海期货信息技术有限公司CTP API](http://www.sfit.com.cn/5_2_DocumentDown.htm) - 期货交易所提供的API
-* [飞马快速交易平台 - 上海金融期货信息技术有限公司](http://www.cffexit.com.cn/static/3000201.html) - 飞马
-* [大连飞创信息技术有限公司](http://www.dfitc.com.cn/portal/cate?cid=1364967839100#1) - 飞创
-* [vnpy](https://github.com/vnpy/vnpy) - 基于python的开源交易平台开发框架
-* [QuantBox/XAPI2](https://github.com/QuantBox/XAPI2) - 统一行情交易接口第2版
-* [easytrader](https://github.com/shidenggui/easytrader) - 提供券商华泰/佣金宝/银河/广发/雪球的基金、股票自动程序化交易，量化交易组件
-* [策略易](http://www.iguuu.com/e)（[SDK](https://github.com/sinall/StrategyEase-Python-SDK)）  - 管理交易客户端，提供基于 HTTP 协议的 RESTFul API；各大在线量化交易平台策略自动化解决方案
-* [IB API | Interactive Brokers](https://www.interactivebrokers.com.hk/cn/index.php?f=5234&ns=T) - 盈透证券的交易API
-* [FutunnOpen/futuquant](https://github.com/FutunnOpen/futuquant) - 富途量化平台 API
+## API handlowe
+* [Shanghai Futures Information Technology Co., Ltd CTP API](http://www.sfit.com.cn/5_2_DocumentDown.htm) - API dostarczane przez giełdę kontraktów terminowych.
+* [Pegasus Fast Trading Platform - Shanghai Financial Futures Information Technology Co. Ltd](http://www.cffexit.com.cn/static/3000201.html) - Pegasus
+* [Dalian Feicuang Information Technology Co Ltd](http://www.dfitc.com.cn/portal/cate?cid=1364967839100#1) - Feicuang
+* [vnpy](https://github.com/vnpy/vnpy) - oparta na Pythonie platforma rozwoju platform transakcyjnych typu open source
+* [QuantBox/XAPI2](https://github.com/QuantBox/XAPI2) - ujednolicony interfejs notowań i handlu w wersji 2
+* [easytrader](https://github.com/shidenggui/easytrader) - zapewnia brokera Huatai / skarb prowizji / galaxy / guangfa / fundusz śnieżki, automatyczny zaprogramowany handel akcjami, ilościowe komponenty handlowe
+* [StrategyEasy](http://www.iguuu.com/e) ([SDK](https://github.com/sinall/StrategyEase-Python-SDK)) - zarządza klientami handlowymi, zapewnia API RESTFul oparte na protokole HTTP; główne internetowe platformy handlu ilościowego. Rozwiązania do automatyzacji strategii
+* [IB API | Interactive Brokers](https://www.interactivebrokers.com.hk/cn/index.php?f=5234&ns=T) - API transakcyjne dla PCCW Securities
+* [FutunnOpen/futuquant](https://github.com/FutunnOpen/futuquant) - API platformy Futuquant.
 
 
-## 编程
+## Programowanie
 
 ### Python
-#### 安装
-* [Anaconda](https://www.continuum.io/downloads) - 推荐通过[清华大学镜像 ](https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/)下载安装
-* [Python Extension Packages for Windows - Christoph Gohlke](http://www.lfd.uci.edu/~gohlke/pythonlibs/) - Windows用户从这里可以下载许多python库的预编译包
+#### Instalacja
+* [Anaconda](https://www.continuum.io/downloads) - zalecane do pobrania i zainstalowania przez [Tsinghua University Mirror](https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/)
+* [Python Extension Packages for Windows - Christoph Gohlke](http://www.lfd.uci.edu/~gohlke/pythonlibs/) - Użytkownicy Windows mogą pobrać stąd prekompilowane pakiety wielu bibliotek Pythona.
 
-#### 教程
-* [Python | Codecademy](https://www.codecademy.com/learn/python)
-* [用 Python 玩转数据 - 南京大学 | Coursera](https://www.coursera.org/learn/hipython)
+#### Tutoriale
+* Python | Codecademy](https://www.codecademy.com/learn/python)
+* [Playing with Data in Python - Nanjing University | Coursera](https://www.coursera.org/learn/hipython)
 * [Introduction to Data Science in Python - University of Michigan | Coursera](https://www.coursera.org/learn/python-data-analysis)
-* [The Python Tutorial — Python 3.5.2 documentation](https://docs.python.org/3/tutorial/)
+* [Samouczek Pythona - dokumentacja Python 3.5.2](https://docs.python.org/3/tutorial/)
 * [Python for Finance](https://book.douban.com/subject/25921015/)
-* [Algorithmic Thinking](https://www.coursera.org/learn/algorithmic-thinking-1) - Python 算法思维训练
+* [Myślenie algorytmiczne](https://www.coursera.org/learn/algorithmic-thinking-1) - Szkolenie z myślenia algorytmicznego w Pythonie
 
-#### 库
-* [awesome-python: A curated list of awesome Python frameworks, libraries, software and resources](https://github.com/vinta/awesome-python)
-* [pandas](http://pandas.pydata.org) - Python做数据分析的基础
+#### biblioteka
+* [awesome-python: Wyselekcjonowana lista niesamowitych frameworków, bibliotek, oprogramowania i zasobów Pythona](https://github.com/vinta/awesome-python)
+* [pandas](http://pandas.pydata.org) - podstawa Pythona do analizy danych
 * [pyql: Cython QuantLib wrappers](https://github.com/enthought/pyql)
-* [ffn](http://pmorissette.github.io/ffn/quick.html) - 绩效评估
-* [ta-lib: Python wrapper for TA-Lib (http://ta-lib.org/).](https://github.com/mrjbq7/ta-lib) - 技术指标
-* [StatsModels: Statistics in Python — statsmodels documentation](http://statsmodels.sourceforge.net/) - 常用统计模型
-* [arch: ARCH models in Python](https://github.com/bashtage/arch) - 时间序列
-* [pyfolio: Portfolio and risk analytics in Python](https://github.com/quantopian/pyfolio) - 组合风险评估
-* [twosigma/flint: A Time Series Library for Apache Spark](https://github.com/twosigma/flint) - Apache Spark上的时间序列库
-* [PyFlux](https://github.com/RJT1990/pyflux) - Python 的时间序列建模(频率派和贝叶斯)  
+* [ffn](http://pmorissette.github.io/ffn/quick.html) - ocena wydajności
+* [ta-lib: Python wrapper dla TA-Lib (http://ta-lib.org/)] (https://github.com/mrjbq7/ta-lib) - wskaźniki techniczne
+* [StatsModels: Statystyka w Pythonie - dokumentacja statsmodels](http://statsmodels.sourceforge.net/) - Popularne modele statystyczne
+* [arch: ARCH models in Python](https://github.com/bashtage/arch) - szeregi czasowe
+* [pyfolio: Portfolio and risk analytics in Python](https://github.com/quantopian/pyfolio) - ocena ryzyka portfela
+* [twosigma/flint: A Time Series Library for Apache Spark](https://github.com/twosigma/flint) - biblioteka szeregów czasowych na Apache Spark
+* PyFlux](https://github.com/RJT1990/pyflux) - modelowanie szeregów czasowych w Pythonie (częstotliwościowe i bayesowskie)  
 
 ### R
 
-#### 安装
-* [The Comprehensive R Archive Network](https://mirrors.tuna.tsinghua.edu.cn/CRAN/) - 从国内清华镜像下载安装
-* [RStudio](https://www.rstudio.com/products/rstudio/download/) - R的常用开发平台下载
+#### Instalacja
+* [The Comprehensive R Archive Network](https://mirrors.tuna.tsinghua.edu.cn/CRAN/) - Pobierz i zainstaluj z chińskiego mirrora Tsinghua.
+* RStudio](https://www.rstudio.com/products/rstudio/download/) - wspólna platforma programistyczna R do pobrania.
 
-#### 教程
-* [Free Introduction to R Programming Online Course](https://www.datacamp.com/courses/free-introduction-to-r) - datacamp的在线学习
-* [R Programming - 约翰霍普金斯大学 | Coursera](https://www.coursera.org/learn/r-programming)
-* [Intro to Computational Finance with R](https://www.datacamp.com/community/open-courses/computational-finance-and-financial-econometrics-with-r) - 用R进行计算金融分析
+#### Samouczki
+* [Free Introduction to R Programming Online Course](https://www.datacamp.com/courses/free-introduction-to-r) - datacamp online learning
+* [R Programming - Johns Hopkins University | Coursera](https://www.coursera.org/learn/r-programming)
+* [Intro to Computational Finance with R](https://www.datacamp.com/community/open-courses/computational-finance-and-financial- econometrics-with-r) - Obliczeniowa analiza finansowa z R
 
-#### 库
-* [CRAN Task View: Empirical Finance](https://cran.r-project.org/web/views/Finance.html) - CRAN官方的R金融相关包整理
-* [qinwf/awesome-R: A curated list of awesome R packages, frameworks and software.](https://github.com/qinwf/awesome-R) - R包的awesome
+#### biblioteki
+* [CRAN Task View: Empirical Finance](https://cran.r-project.org/web/views/Finance.html) - oficjalne zestawienie pakietów związanych z finansami dla R w CRAN.
+* [qinwf/awesome-R: A curated list of awesome R packages, frameworks and software.](https://github.com/qinwf/awesome-R) - Pakiety R dla niesamowitości.
 
 ### C++
-#### 教程
-* [C++程序设计](http://www.xuetangx.com/courses/course-v1:PekingX+04831750.1x+2015T1/about) - 北京大学  郭炜
-* [基于Linux的C++ ](http://www.xuetangx.com/courses/course-v1:TsinghuaX+20740084X+sp/about) - 清华大学  乔林
-* [面向对象程序设计（C++）](http://www.xuetangx.com/courses/course-v1:TsinghuaX+30240532X+sp/about) - 清华大学 徐明星
-*  [C++ Design Patterns and Derivatives Pricing ](https://book.douban.com/subject/1485468/) - C++设计模式
-* [C++ reference - cppreference.com](http://en.cppreference.com/w/cpp) - 在线文档
+#### Samouczki
+* Programowanie w C++](http://www.xuetangx.com/courses/course-v1:PekingX+04831750.1x+2015T1/about) - Guo Wei, Peking University.
+* [Linux-based C++](http://www.xuetangx.com/courses/course-v1:TsinghuaX+20740084X+sp/about) - Qiao Lin, Uniwersytet Tsinghua
+* Programowanie obiektowe (C++)](http://www.xuetangx.com/courses/course-v1:TsinghuaX+30240532X+sp/about) - Xu Mingxing, Uniwersytet Tsinghua
+* Wzorce projektowe C++ i wycena instrumentów pochodnych](https://book.douban.com/subject/1485468/) - Wzorce projektowe C++
+* [C++ Reference - cppreference.com](http://en.cppreference.com/w/cpp) - dokumentacja online
 
-#### 库
-* [fffaraz/awesome-cpp: A curated list of awesome C/C++ frameworks, libraries, resources, and shiny things.](https://github.com/fffaraz/awesome-cpp) - C++库整理
-* [rigtorp/awesome-modern-cpp: A collection of resources on modern C++](https://github.com/rigtorp/awesome-modern-cpp) - 现代C++库整理
-* [QuantLib: a free/open-source library for quantitative finance](http://quantlib.org/index.shtml)
-* [libtrading/libtrading: Libtrading, an ultra low-latency trading connectivity library for C and C++.](https://github.com/libtrading/libtrading)
+Biblioteki ####
+* [fffaraz/awesome-cpp: A curated list of awesome C/C++ frameworks, libraries, resources, and shiny things.](https://github.com/fffaraz/awesome -cpp) - wyselekcjonowane biblioteki C++
+* [rigtorp/awesome-modern-cpp: Zbiór zasobów na temat nowoczesnego C++](https://github.com/rigtorp/awesome-modern-cpp) - organizacja nowoczesnych bibliotek C++.
+* [QuantLib: wolna/otwarta biblioteka dla finansów ilościowych](http://quantlib.org/index.shtml)
+* [libtrading/libtrading: Libtrading, biblioteka łączności handlowej o bardzo niskich opóźnieniach dla C i C++]. (https://github.com/libtrading/libtrading)
 
 ### Julia
-#### 教程
-* [Learning Julia](http://julialang.org/learning/) - 官方整理
-* [QUANTITATIVE ECONOMICS with Julia](http://quant-econ.net/_static/pdfs/jl-quant-econ.pdf) - 经济学诺奖获得者Thomas Sargent教你[Julia](http://julialang.org/)在量化经济的应用。
+#### Samouczki
+* [Learning Julia](http://julialang.org/learning/) - oficjalna kompilacja
+* [QUANTITATIVE ECONOMICS with Julia](http://quant-econ.net/_static/pdfs/jl-quant-econ.pdf) - Laureat ekonomicznego Nobla Thomas Sargent uczy [Julia](http:// julialang.org/) w zakresie ekonomii ilościowej.
 
-#### 库
-* [Quantitative Finance in Julia](https://github.com/JuliaQuant) - 多数为正在实现中，感兴趣的可以参与
+#### biblioteka
+* [Quantitative Finance in Julia](https://github.com/JuliaQuant) - głównie prace w toku, dla zainteresowanych!
 
-### 编程论坛
-- [Stack Overflow](http://stackoverflow.com/) - 对应语言的tag
-- [SegmentFault](https://segmentfault.com/) - 对应语言的tag
+### Fora programistyczne
+- Stack Overflow](http://stackoverflow.com/) - tag dla odpowiedniego języka
+- SegmentFault](https://segmentfault.com/) - tagi dla odpowiednich języków
 
-### 编程能力在线训练
+### Szkolenie online z umiejętności programowania
 
-* [Solve Programming Questions | HackerRank](https://www.hackerrank.com/domains) - 包含常用语言(C++, Java, Python, Ruby, SQL)和相关计算机应用技术(算法、数据结构、数学、AI、Linux Shell、分布式系统、正则表达式、安全)的教程和挑战。
-* [LeetCode Online Judge](https://leetcode.com/) - C, C++, Java, Python, C#, JavaScript, Ruby, Bash, MySQL在线编程训练
+* [Solve Programming Questions | HackerRank](https://www.hackerrank.com/domains) - Zawiera powszechnie używane języki (C++, Java, Python, Ruby, SQL) i powiązane techniki aplikacji komputerowych (algorytmy, struktury danych, matematyka, AI, Linux Shell, systemy rozproszone, wyrażenia regularne, bezpieczeństwo).
+* [LeetCode Online Judge](https://leetcode.com/) - Szkolenie online z programowania w językach C, C++, Java, Python, C#, JavaScript, Ruby, Bash, MySQL.
 
-## 论坛
-* [Quantitative Finance StackExchange](http://quant.stackexchange.com/) -  stackexchange 系列的 quant 论坛
-* [JoinQuant社区](https://www.joinquant.com/community) - JoinQuant社区
-* [优矿社区](https://uqer.io/community/list) - 优矿社区
-* [RiceQuant量化社区](https://www.ricequant.com/community/) - RiceQuant量化社区
-* [掘金量化社区](http://forum.myquant.cn/) - 掘金量化社区
-* [清华大学学生经济金融论坛](http://forum.thuquant.com/) - 清华大学学生金融数据与量化投资协会主办
+## Forum.
+* [Quantitative Finance StackExchange](http://quant.stackexchange.com/) - forum ilościowe dla serii stackexchange.
+* [JoinQuant Community](https://www.joinquant.com/community) - Społeczność JoinQuant
+* [YouMine Community](https://uqer.io/community/list) - społeczność YouMine.
+* [RiceQuant Quantitative Community](https://www.ricequant.com/community/) - społeczność RiceQuant Quantitative Community
+* [Nuggets Quantitative Community](http://forum.myquant.cn/) - Społeczność ilościowa Nuggets
+* [Tsinghua University Student Economic and Financial Forum](http://forum.thuquant.com/) - Organizowane przez Tsinghua University Student Financial Data and Quantitative Investment Association.
 
-## 书籍
-* [My Life as a Quant: Reflections on Physics and Finance](http://www.amazon.com/My-Life-Quant-Reflections-Physics/dp/0470192739) - In My Life as a Quant, Emanuel Derman relives his exciting journey as one of the first high-energy particle physicists to migrate to Wall Street.
-* [量化交易](https://book.douban.com/subject/25878150/) - Ernest P. Chan撰写的量化投资理论
-* [量化投资与对冲基金丛书：波动率交易](https://book.douban.com/subject/25711100/)
-* [Following the Trend](https://book.douban.com/subject/19990593/)
-* [Statistical Inference](https://book.douban.com/subject/1464795/) - 统计推断入门
-* [All of Nonparametric Statistics](https://book.douban.com/subject/4251603/) - 非参统计入门
-* [The Elements of Statistical Learning](https://book.douban.com/subject/3294335/) -  Data Mining, Inference, and Prediction
-* [Analysis of Financial Time Series](https://book.douban.com/subject/4719140/) - Ruey S. Tsay  的时间序列分析
-* [Options, Futures, and Other Derivatives](https://book.douban.com/subject/6127888/) - 期权期货等衍生品
+## Książki
+* [My Life as a Quant: Reflections on Physics and Finance](http://www.amazon.com/My-Life-Quant-Reflections-Physics/dp/0470192739) - W książce My Life as a Quant a Quant, Emanuel Derman przeżywa swoją ekscytującą podróż jako jeden z pierwszych fizyków cząstek wysokoenergetycznych, który wyemigrował na Wall Street.
+* [Quantitative Trading](https://book.douban.com/subject/25878150/) - Teoria inwestycji ilościowych autorstwa Ernesta P. Chana.
+* [Quantitative Investing and Hedge Fund Series: Volatility Trading](https://book.douban.com/subject/25711100/)
+* [Podążanie za trendem](https://book.douban.com/subject/19990593/)
+* [Wnioskowanie statystyczne](https://book.douban.com/subject/1464795/) - Wprowadzenie do wnioskowania statystycznego
+* [Cała statystyka nieparametryczna](https://book.douban.com/subject/4251603/) - Wprowadzenie do statystyki nieparametrycznej
+* [The Elements of Statistical Learning](https://book.douban.com/subject/3294335/) - Eksploracja danych, wnioskowanie i przewidywanie
+* [Analiza finansowych szeregów czasowych](https://book.douban.com/subject/4719140/) - Analiza szeregów czasowych autorstwa Ruey S. Tsay
+* Opcje, kontrakty terminowe i inne instrumenty pochodne](https://book.douban.com/subject/6127888/) - Opcje, kontrakty terminowe i inne instrumenty pochodne
 
 
 
-## 论文
+## Praca dyplomowa
 * [awesome-quant/papers.md](https://github.com/thuquant/awesome-quant/blob/master/papers.md)
 
-## 值得关注的信息源
+## Awesome-quant źródła informacji
 * [Quantitative Finance arxiv](https://arxiv.org/archive/q-fin)
-* [雪球工程师1号](http://xueqiu.com/engineer) - 财经社交网络雪球的量化相关账号。
-* [Ricequant量化](http://xueqiu.com/ricequant) - Ricequant量化平台的雪球账号。
-* [量化哥-优矿Uqer](http://xueqiu.com/4105947155) - 优矿Uqer量化平台的雪球账号。
-* [宽客 (Quant) - 索引 - 知乎](https://www.zhihu.com/topic/19557481)
-* 量化投资与机器学习 - 微信公众号
-* THU量协 - 微信公众号
-* 优矿量化实验室  - 微信公众号
-* Ricequant   - 微信公众号
-* 鲁明量化全视角 - 微信公众号
+* [snowballengineer1](http://xueqiu.com/engineer) - konto związane z kwestiami ilościowymi na finansowym portalu społecznościowym Snowball.
+* [Ricequant Quantitative](http://xueqiu.com/ricequant) - konto Snowball dla platformy ilościowej Ricequant.
+* [Quant Bro - Uqer Uqer](http://xueqiu.com/4105947155) - konto Snowball dla platformy ilościowej Uqer.
+* [Kuanke (Quant) - Index - 知乎](https://www.zhihu.com/topic/19557481)
+* Inwestycje ilościowe i uczenie maszynowe - numer publiczny wechat
+* THU Quantitative Association - 微信公众号
+* U-Mine Quant Lab - 微信公众号
+* Ricequant - 微信公众号
+* Lumine Quantitative All View - numer publiczny WeChat
 
 
-## 政策
-* [中国证券监督管理委员会](http://www.csrc.gov.cn/pub/newsite/)
-* [考试报名-中国证券业协会](http://www.sac.net.cn/cyry/kspt/ksbm/) - 证券从业资格报名
-* [中国证券投资基金业协会](http://www.amac.org.cn/) - 内有相关法规教育和从业资格报名入口
-* [大连商品交易所](http://www.dce.com.cn/)
-* [上海期货交易所首页](http://www.shfe.com.cn/)
-* [郑州商品交易所网站](http://www.czce.com.cn/portal/index.htm)
-* [上海证券交易所](http://www.sse.com.cn/)
-* [深圳证券交易所](http://www.szse.cn/)
+## Polityka
+* [Chińska Komisja Nadzoru Papierów Wartościowych](http://www.csrc.gov.cn/pub/newsite/)
+* [Rejestracja egzaminu - Chińskie Stowarzyszenie Papierów Wartościowych](http://www.sac.net.cn/cyry/kspt/ksbm/) - Rejestracja kwalifikacji papierów wartościowych
+* [China Securities Investment Funds Association](http://www.amac.org.cn/) - Wewnątrz odpowiednich przepisów wejście do edukacji i rejestracji kwalifikacji praktyków
+* [Dalian Commodity Exchange](http://www.dce.com.cn/)
+* [Shanghai Futures Exchange Home](http://www.shfe.com.cn/)
+* [Strona internetowa giełdy towarowej w Zhengzhou](http://www.czce.com.cn/portal/index.htm)
+* [Shanghai Stock Exchange](http://www.sse.com.cn/)
+* [Shenzhen Stock Exchange](http://www.szse.cn/)
 
-# 其他Quant资源索引
+# Indeks innych zasobów Quant
 
-* [Quantitative Finance Reading List - QuantStart](https://www.quantstart.com/articles/Quantitative-Finance-Reading-List#general-quant-finance-reading)
-* [Master reading list for Quants, MFE (Financial Engineering) students | QuantNet Community](https://www.quantnet.com/threads/master-reading-list-for-quants-mfe-financial-engineering-students.535/)
+* [Quantitative Finance Reading List - QuantStart](https://www.quantstart.com/articles/Quantitative-Finance-Reading-List#general-quant- finance-reading)
+* [Master reading list for Quants, MFE (Financial Engineering) students | QuantNet Community](https://www.quantnet.com/threads/master-reading- list-for-quants-mfe-financial-engineering-students.535/)
 
-# 其他 Awesome 列表
-* 英文版 awesome-quant [wilsonfreitas/awesome-quant: A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)](https://github.com/wilsonfreitas/awesome-quant)
-* Other awesome lists [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness).
-* Even more lists [awesome](https://github.com/sindresorhus/awesome).
-* Another list? [list](https://github.com/jnv/lists).
+# Inne niesamowite listy
+* angielska wersja awesome-quant [wilsonfreitas/awesome-quant: A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finanse)](https://github.com/wilsonfreitas/awesome-quant)
+* Inne niesamowite listy [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness).
+* Jeszcze więcej list [awesome](https://github.com/sindresorhus/awesome).
+* Kolejna lista [list](https://github.com/jnv/lists) * WTF!
 * WTF! [awesome-awesome-awesome](https://github.com/t3chnoboy/awesome-awesome-awesome).
-* Analytics [awesome-analytics](https://github.com/onurakpolat/awesome-analytics).
+* Analityka [awesome-analytics](https://github.com/onurakpolat/awesome-analytics).
