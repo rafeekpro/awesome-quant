@@ -5,7 +5,7 @@ Starannie dobrany indeks zasobów związanych z Quant w języku chińskim.
 
 ## Spis treści
 
-* Źródła danych](#Data Sources)
+# [Źródła danych](#Data Sources)
 * [Baza danych](#Database)
 * [Quantitative Trading Platform](#Quantitative Trading Platform)
 * [Strategia](#Strategy)
@@ -38,7 +38,7 @@ Starannie dobrany indeks zasobów związanych z Quant w języku chińskim.
 * [zvt](https://github.com/zvtvz/zvt) - ZVT to projekt ilościowy napisany po przemyśleniu na podstawie fooltradera, który zawiera skalowalny rejestrator danych, api, obliczenia czynników, selekcję akcji, backtesting, pozycjonowanie dla niskiej i średniej częstotliwości, wielopoziomową, wieloprzedmiotową, ogólnorynkową analizę i ramy handlowe.
 * [JoinQuant/jqdatasdk](https://github.com/JoinQuant/jqdatasdk) - jqdatasdk to zestaw SDK, który zapewnia użytkownikom dostęp do zagregowanych, szerokich danych finansowych.
 * [MiBasket's RQData data interface](https://www.ricequant.com/introduce_rqdata) - Charge for it
-* AkShare](https://github.com/jindaxiang/akshare) - darmowa biblioteka interfejsu danych finansowych typu open source, obecnie zawiera najbardziej kompletny interfejs danych w chińskiej domenie.
+* [AkShare](https://github.com/jindaxiang/akshare) - darmowa biblioteka interfejsu danych finansowych typu open source, obecnie zawiera najbardziej kompletny interfejs danych w chińskiej domenie.
 
 ## Baza danych
 
@@ -46,9 +46,9 @@ Starannie dobrany indeks zasobów związanych z Quant w języku chińskim.
 * [kdb | The Leader in High-Performance Tick Database Technology | Kx Systems](https://kx.com/) - Oparte na opłatach rozwiązanie dla wysokowydajnych baz danych serii finansowych
 * [MongoDB Blog](http://blog.mongodb.org/post/65517193370/schema-design-for-time-series-data-in-mongodb) - Przechowywanie danych szeregów czasowych za pomocą mongodb
 * [InfluxDB - Time-Series Data Storage | InfluxData](https://www.influxdata.com/time-series-platform/influxdb/) - Rozproszone szeregi czasowe napisane przez Go Baza danych.
-* OpenTSDB/opentsdb: skalowalna, rozproszona baza danych szeregów czasowych](https://github.com/OpenTSDB/opentsdb) - baza danych szeregów czasowych oparta na HBase.
+* [OpenTSDB/opentsdb: skalowalna, rozproszona baza danych szeregów czasowych](https://github.com/OpenTSDB/opentsdb) - baza danych szeregów czasowych oparta na HBase.
 * [kairosdb/kairosdb: Szybka skalowalna baza danych szeregów czasowych](https://github.com/kairosdb/kairosdb) - Baza danych szeregów czasowych oparta na Cassandrze.
-* [timescale/timescaleb: Baza danych szeregów czasowych o otwartym kodzie źródłowym zoptymalizowana pod kątem szybkiego pozyskiwania i złożonych zapytań. Opracowana na podstawie PostgreSQL, spakowana jako rozszerzenie.]() - Oparta na Cassandrze. spakowane jako rozszerzenie.](https://github.com/timescale/timescaledb) - Baza danych szeregów czasowych oparta na PostgreSQL.
+* [timescale/timescaleb: Baza danych szeregów czasowych o otwartym kodzie źródłowym zoptymalizowana pod kątem szybkiego pozyskiwania i złożonych zapytań. Opracowana na podstawie PostgreSQL, spakowana jako rozszerzenie. - Oparta na Cassandrze. spakowane jako rozszerzenie.](https://github.com/timescale/timescaledb) - Baza danych szeregów czasowych oparta na PostgreSQL.
 
 ## Platforma handlu ilościowego
 
@@ -81,7 +81,7 @@ Starannie dobrany indeks zasobów związanych z Quant w języku chińskim.
 * [quantdigger](https://github.com/QuantFans/quantdigger) - oparty na Pythonie system ilościowego backtestingu, zapożyczony z głównego nurtu komercyjnego oprogramowania (takiego jak TB, piramida) zwięzła składnia strategii.
 * [pyktrader](https://github.com/harveywwu/pyktrader) - platforma handlowa w Pythonie oparta na interfejsie pyctp i wykorzystująca eventEngine vnpy, wykorzystująca tkinter jako GUI.
 * [QuantConnect/Lean](https://github.com/QuantConnect/Lean) - Lean Algorithmic Trading Engine firmy QuantConnect (C#, Python, F#, VB, Java).
-* QUANTAXIS](https://github.com/yutiansut/QUANTAXIS) - QUANTAXIS Quantitative Financial Strategy Framework - rozwiązanie dla małych i średnich zespołów strategicznych.
+* [QUANTAXIS](https://github.com/yutiansut/QUANTAXIS) - QUANTAXIS Quantitative Financial Strategy Framework - rozwiązanie dla małych i średnich zespołów strategicznych.
 * [Hikyuu](http://hikyuu.org) - oparty na Python/C++ framework do ilościowych badań tradingowych.
 * [StarQuant](https://github.com/physercoe/starquant) - Zintegrowany system/platforma do ilościowego testowania transakcji oparta na Python/C++.
 
@@ -105,7 +105,7 @@ Starannie dobrany indeks zasobów związanych z Quant w języku chińskim.
 * [Python Extension Packages for Windows - Christoph Gohlke](http://www.lfd.uci.edu/~gohlke/pythonlibs/) - Użytkownicy Windows mogą pobrać stąd prekompilowane pakiety wielu bibliotek Pythona.
 
 #### Tutoriale
-* Python | Codecademy](https://www.codecademy.com/learn/python)
+* [Python | Codecademy](https://www.codecademy.com/learn/python)
 * [Playing with Data in Python - Nanjing University | Coursera](https://www.coursera.org/learn/hipython)
 * [Introduction to Data Science in Python - University of Michigan | Coursera](https://www.coursera.org/learn/python-data-analysis)
 * [Samouczek Pythona - dokumentacja Python 3.5.2](https://docs.python.org/3/tutorial/)
@@ -122,13 +122,13 @@ Starannie dobrany indeks zasobów związanych z Quant w języku chińskim.
 * [arch: ARCH models in Python](https://github.com/bashtage/arch) - szeregi czasowe
 * [pyfolio: Portfolio and risk analytics in Python](https://github.com/quantopian/pyfolio) - ocena ryzyka portfela
 * [twosigma/flint: A Time Series Library for Apache Spark](https://github.com/twosigma/flint) - biblioteka szeregów czasowych na Apache Spark
-* PyFlux](https://github.com/RJT1990/pyflux) - modelowanie szeregów czasowych w Pythonie (częstotliwościowe i bayesowskie)  
+* [PyFlux](https://github.com/RJT1990/pyflux) - modelowanie szeregów czasowych w Pythonie (częstotliwościowe i bayesowskie)  
 
 ### R
 
 #### Instalacja
 * [The Comprehensive R Archive Network](https://mirrors.tuna.tsinghua.edu.cn/CRAN/) - Pobierz i zainstaluj z chińskiego mirrora Tsinghua.
-* RStudio](https://www.rstudio.com/products/rstudio/download/) - wspólna platforma programistyczna R do pobrania.
+* [RStudio](https://www.rstudio.com/products/rstudio/download/) - wspólna platforma programistyczna R do pobrania.
 
 #### Samouczki
 * [Free Introduction to R Programming Online Course](https://www.datacamp.com/courses/free-introduction-to-r) - datacamp online learning
@@ -141,10 +141,10 @@ Starannie dobrany indeks zasobów związanych z Quant w języku chińskim.
 
 ### C++
 #### Samouczki
-* Programowanie w C++](http://www.xuetangx.com/courses/course-v1:PekingX+04831750.1x+2015T1/about) - Guo Wei, Peking University.
+* [Programowanie w C++](http://www.xuetangx.com/courses/course-v1:PekingX+04831750.1x+2015T1/about) - Guo Wei, Peking University.
 * [Linux-based C++](http://www.xuetangx.com/courses/course-v1:TsinghuaX+20740084X+sp/about) - Qiao Lin, Uniwersytet Tsinghua
-* Programowanie obiektowe (C++)](http://www.xuetangx.com/courses/course-v1:TsinghuaX+30240532X+sp/about) - Xu Mingxing, Uniwersytet Tsinghua
-* Wzorce projektowe C++ i wycena instrumentów pochodnych](https://book.douban.com/subject/1485468/) - Wzorce projektowe C++
+* [Programowanie obiektowe (C++)](http://www.xuetangx.com/courses/course-v1:TsinghuaX+30240532X+sp/about) - Xu Mingxing, Uniwersytet Tsinghua
+* [Wzorce projektowe C++ i wycena instrumentów pochodnych](https://book.douban.com/subject/1485468/) - Wzorce projektowe C++
 * [C++ Reference - cppreference.com](http://en.cppreference.com/w/cpp) - dokumentacja online
 
 Biblioteki ####
@@ -162,8 +162,8 @@ Biblioteki ####
 * [Quantitative Finance in Julia](https://github.com/JuliaQuant) - głównie prace w toku, dla zainteresowanych!
 
 ### Fora programistyczne
-- Stack Overflow](http://stackoverflow.com/) - tag dla odpowiedniego języka
-- SegmentFault](https://segmentfault.com/) - tagi dla odpowiednich języków
+- [Stack Overflow](http://stackoverflow.com/) - tag dla odpowiedniego języka
+- [SegmentFault](https://segmentfault.com/) - tagi dla odpowiednich języków
 
 ### Szkolenie online z umiejętności programowania
 
@@ -187,7 +187,7 @@ Biblioteki ####
 * [Cała statystyka nieparametryczna](https://book.douban.com/subject/4251603/) - Wprowadzenie do statystyki nieparametrycznej
 * [The Elements of Statistical Learning](https://book.douban.com/subject/3294335/) - Eksploracja danych, wnioskowanie i przewidywanie
 * [Analiza finansowych szeregów czasowych](https://book.douban.com/subject/4719140/) - Analiza szeregów czasowych autorstwa Ruey S. Tsay
-* Opcje, kontrakty terminowe i inne instrumenty pochodne](https://book.douban.com/subject/6127888/) - Opcje, kontrakty terminowe i inne instrumenty pochodne
+* [Opcje, kontrakty terminowe i inne instrumenty pochodne](https://book.douban.com/subject/6127888/) - Opcje, kontrakty terminowe i inne instrumenty pochodne
 
 
 
