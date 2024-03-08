@@ -1,16 +1,12 @@
 
-# Awesome Quant [! [Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github. com/sindresorhus/awesome)
-
-Starannie dobrany indeks zasobów związanych z Quant w języku chińskim.
-
 ## Spis treści
 
 # [Źródła danych](#Źródła danych)
 * [Baza danych](#Baza danych)
 * [Platforma handlu ilościowego](#Platforma handlu ilościowego)
-* [Strategia](#Strategy)
-* [Backtest](#Backtest)
-* [Trading API](#Trading api)
+* [Strategia](#Strategia)
+* [Backtesting](#Backtesting)
+* [Trading API](#Trading API)
 * [Programowanie](#Programming)
     * [Python](#python)
     * [R](#r)
@@ -85,7 +81,7 @@ Starannie dobrany indeks zasobów związanych z Quant w języku chińskim.
 * [Hikyuu](http://hikyuu.org) - oparty na Python/C++ framework do ilościowych badań tradingowych.
 * [StarQuant](https://github.com/physercoe/starquant) - Zintegrowany system/platforma do ilościowego testowania transakcji oparta na Python/C++.
 
-## API handlowe
+## Trading API
 * [Shanghai Futures Information Technology Co., Ltd CTP API](http://www.sfit.com.cn/5_2_DocumentDown.htm) - API dostarczane przez giełdę kontraktów terminowych.
 * [Pegasus Fast Trading Platform - Shanghai Financial Futures Information Technology Co. Ltd](http://www.cffexit.com.cn/static/3000201.html) - Pegasus
 * [Dalian Feicuang Information Technology Co Ltd](http://www.dfitc.com.cn/portal/cate?cid=1364967839100#1) - Feicuang
